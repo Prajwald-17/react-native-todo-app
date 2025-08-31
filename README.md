@@ -103,27 +103,24 @@ All technical requirements completed:
 - Completion status tracking
 
 ## 🏗 Project Structure
-react-native-todo-app/
-├── 📂 src/ # Source code
-│ ├── 🎨 components/ # Reusable UI components
-│ ├── 🔄 contexts/ # React Context providers
-│ │ ├── AuthContext.tsx # Firebase auth state
-│ │ └── TodoContext.tsx # Todo CRUD & state
-│ ├── 🧭 navigation/ # Navigation setup
-│ ├── 📱 screens/ # App screens
-│ │ ├── auth/ # Login & Register
-│ │ └── main/ # TodoList, Add, Edit
-│ ├── 🎯 types/ # TypeScript types
-│ └── 🛠 utils/ # Helpers (sorting, dates)
-├── 📱 android/ # Android native code
-│ └── app/ # App-level config & Firebase JSON
-├── 📸 screenshots/ # Documentation images
-├── App.tsx # Root component
-├── index.js # Entry point
-├── package.json # Dependencies & scripts
-├── tsconfig.json # TS configuration
-├── babel.config.js # Babel setup
-└── README.md # This file
+
+| Directory | Purpose | Key Files |
+|-----------|---------|-----------|
+| 📂 `src/contexts/` | State management | AuthContext.tsx, TodoContext.tsx |
+| 📱 `src/screens/` | App interfaces | Login, Register, TodoList, Add, Edit |
+| 🧭 `src/navigation/` | Routing system | AppNavigator, AuthStack, MainStack |
+| 🎯 `src/types/` | TypeScript definitions | Todo interface, Priority enum |
+| 🛠 `src/utils/` | Helper functions | Smart sorting, date formatting |
+| 📱 `android/` | Native Android | google-services.json, build.gradle |
+| 📸 `screenshots/` | Documentation | App preview images |
+
+### Core Architecture:
+- **Firebase Authentication** - Secure login/register system
+- **Context API** - Efficient state management  
+- **Smart Sorting** - Priority + deadline + time algorithm
+- **TypeScript** - Type-safe development
+- **Professional UI** - Modern, intuitive design
+
 
 ## 🎯 Smart Sorting Algorithm
 
