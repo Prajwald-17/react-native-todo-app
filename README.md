@@ -103,17 +103,27 @@ All technical requirements completed:
 - Completion status tracking
 
 ## 🏗 Project Structure
-src/
-├── components/ # Reusable UI components
-├── contexts/ # React Context providers
-│ ├── AuthContext.tsx # Firebase authentication
-│ └── TodoContext.tsx # Todo state management
-├── navigation/ # Navigation configuration
-├── screens/ # App screens
-│ ├── auth/ # Authentication screens
-│ └── main/ # Main app screens
-├── types/ # TypeScript type definitions
-└── utils/ # Utility functions
+react-native-todo-app/
+├── 📂 src/ # Source code
+│ ├── 🎨 components/ # Reusable UI components
+│ ├── 🔄 contexts/ # React Context providers
+│ │ ├── AuthContext.tsx # Firebase auth state
+│ │ └── TodoContext.tsx # Todo CRUD & state
+│ ├── 🧭 navigation/ # Navigation setup
+│ ├── 📱 screens/ # App screens
+│ │ ├── auth/ # Login & Register
+│ │ └── main/ # TodoList, Add, Edit
+│ ├── 🎯 types/ # TypeScript types
+│ └── 🛠 utils/ # Helpers (sorting, dates)
+├── 📱 android/ # Android native code
+│ └── app/ # App-level config & Firebase JSON
+├── 📸 screenshots/ # Documentation images
+├── App.tsx # Root component
+├── index.js # Entry point
+├── package.json # Dependencies & scripts
+├── tsconfig.json # TS configuration
+├── babel.config.js # Babel setup
+└── README.md # This file
 
 ## 🎯 Smart Sorting Algorithm
 
