@@ -59,22 +59,22 @@ All technical requirements completed:
 
 ### Installation Steps
 
-####Clone repository
+#### Clone repository
  - git clone https://github.com/Prajwald-17/react-native-todo-app.git
  - cd react-native-todo-app
 
-####Install dependencies
+#### Install dependencies
  - npm install
 
-####Android setup
+#### Android setup
  - cd android
  - ./gradlew clean
  - cd ..
 
-####Start Metro
+#### Start Metro
  - npx react-native start
 
-####Run on Android (new terminal)
+#### Run on Android (new terminal)
  - npx react-native run-android
 
 ### Firebase Setup
