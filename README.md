@@ -1,97 +1,138 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 📱 React Native Todo App
 
-# Getting Started
+Professional Todo Application with Firebase Authentication built using React Native CLI and TypeScript.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 🌟 Features
 
-## Step 1: Start Metro
+### Core Functionality
+- ✅ **User Authentication** - Firebase Email/Password registration and login
+- ✅ **Task Management** - Add, edit, delete, and complete tasks
+- ✅ **Smart Sorting** - Advanced algorithm combining priority, deadline, and time
+- ✅ **Advanced Filtering** - Search, category, priority, and status filters
+- ✅ **Date/Time Management** - Due dates and deadlines with native pickers
+- ✅ **Priority System** - 4-level priority with color coding (Low/Medium/High/Urgent)
+- ✅ **Categories/Tags** - Organize tasks with custom categories
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+### Technical Features
+- 🎨 **Modern UI Design** - Professional, clean, and intuitive interface
+- 📱 **React Native CLI** - Built with React Native CLI and TypeScript
+- 🔥 **Firebase Integration** - Authentication and real-time updates
+- 💾 **Local Storage** - AsyncStorage for offline persistence
+- 🧭 **Navigation** - React Navigation with type-safe routing
+- 🎯 **State Management** - Context API with comprehensive state handling
+- 📝 **TypeScript** - Full TypeScript implementation with proper typing
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## 🛠 Technical Stack
 
-```sh
-# Using npm
-npm start
+- **Framework**: React Native CLI
+- **Language**: TypeScript
+- **Authentication**: Firebase Auth
+- **Storage**: AsyncStorage + Firebase
+- **Navigation**: React Navigation v6
+- **State Management**: Context API + React Hooks
+- **UI Components**: React Native + Custom Components
+- **Date Handling**: React Native DateTimePicker
 
-# OR using Yarn
-yarn start
-```
+## 📋 Assignment Requirements
 
-## Step 2: Build and run your app
+All technical requirements completed:
+- ✅ React Native CLI implementation
+- ✅ Firebase Authentication system
+- ✅ Context API state management
+- ✅ Professional UI components
+- ✅ Clean, organized project structure
+- ✅ Comprehensive code comments
+- ✅ Task due dates and deadlines
+- ✅ Smart sorting algorithm (priority + time + deadline)
+- ✅ Categories and tags implementation
+- ✅ Advanced sorting and filtering
+- ✅ Visually appealing, creative design
+- ✅ Enhanced user experience features
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+## 🚀 Installation & Setup
 
-### Android
+### Prerequisites
+- Node.js (v16 or higher)
+- React Native CLI
+- Android Studio
+- Java JDK 17
 
-```sh
-# Using npm
-npm run android
+### Installation Steps
 
-# OR using Yarn
-yarn android
-```
+#### Clone repository
+ - git clone https://github.com/Prajwald-17/react-native-todo-app.git
+ - cd react-native-todo-app
 
-### iOS
+#### Install dependencies
+ - npm install
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+#### Android setup
+ - cd android
+ - ./gradlew clean
+ - cd ..
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+#### Start Metro
+ - npx react-native start
 
-```sh
-bundle install
-```
+#### Run on Android (new terminal)
+ - npx react-native run-android
 
-Then, and every time you update your native dependencies, run:
+### Firebase Setup
+1. Create Firebase project at https://console.firebase.google.com
+2. Enable Authentication with Email/Password
+3. Add Android app with package name: `com.todoapp`
+4. Download `google-services.json` to `android/app/`
 
-```sh
-bundle exec pod install
-```
+## 📸 Screenshots
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+### Authentication Flow
+- Modern login/registration screens
+- Firebase integration with error handling
+- Secure authentication state management
 
-```sh
-# Using npm
-npm run ios
+### Task Management
+- Intuitive task creation with all required fields
+- Smart sorting with multiple algorithms
+- Advanced filtering and search capabilities
+- Professional task list with status indicators
 
-# OR using Yarn
-yarn ios
-```
+### Smart Features
+- Priority-based color coding
+- Category organization
+- Due date and deadline management
+- Completion status tracking
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+## 🏗 Project Structure
+src/
+├── components/ # Reusable UI components
+├── contexts/ # React Context providers
+│ ├── AuthContext.tsx # Firebase authentication
+│ └── TodoContext.tsx # Todo state management
+├── navigation/ # Navigation configuration
+├── screens/ # App screens
+│ ├── auth/ # Authentication screens
+│ └── main/ # Main app screens
+├── types/ # TypeScript type definitions
+└── utils/ # Utility functions
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## 🎯 Smart Sorting Algorithm
 
-## Step 3: Modify your app
+The app implements an advanced sorting algorithm that combines:
+- **Priority Weight**: Higher priority tasks get preference
+- **Urgency Score**: Tasks due within 24 hours get bonus points
+- **Deadline Proximity**: Closer deadlines increase priority
+- **Completion Status**: Completed tasks automatically move to bottom
 
-Now that you have successfully run the app, let's make changes!
+## 👨‍💻 Developer
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Built as part of a React Native development assignment demonstrating:
+- Advanced React Native concepts
+- Firebase integration
+- Professional UI/UX design
+- Clean code architecture
+- TypeScript best practices
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+## 📄 License
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+This project is for educational/assignment purposes.
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
