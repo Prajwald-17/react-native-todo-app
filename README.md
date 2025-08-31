@@ -85,22 +85,24 @@ All technical requirements completed:
 
 ##  Screenshots
 
-### Authentication Flow
-- Modern login/registration screens
-- Firebase integration with error handling
-- Secure authentication state management
+### 🔐 Authentication Flow
+| Login Screen | Registration Screen |
+|--------------|-------------------|
+| ![Login](screenshots/login-screen.jpg) | ![Register](screenshots/register-screen.jpg) |
+| Firebase authentication with email/password | Secure user registration with validation |
 
-### Task Management
-- Intuitive task creation with all required fields
-- Smart sorting with multiple algorithms
-- Advanced filtering and search capabilities
-- Professional task list with status indicators
+### ✅ Task Management
+| Main Dashboard | Add New Task | Task Success |
+|----------------|--------------|--------------|
+| ![Main List](screenshots/main-todo-list-screen.jpg) | ![Add Task](screenshots/add-task-screen.jpg) | ![Success](screenshots/task-added-success-screen.jpg) |
+| Smart-sorted task list with search & filters | Comprehensive task creation form | Success confirmation feedback |
 
-### Smart Features
-- Priority-based color coding
-- Category organization
-- Due date and deadline management
-- Completion status tracking
+### 🎯 Task Completion
+| Completed Tasks View |
+|---------------------|
+| ![Completed](screenshots/completed-tasks-screen.jpg) |
+| Manage and view completed tasks |
+
 
 ##  Project Structure
 
