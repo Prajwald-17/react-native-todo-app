@@ -1,28 +1,28 @@
-# 📱 React Native Todo App
+#  React Native Todo App
 
 Professional Todo Application with Firebase Authentication built using React Native CLI and TypeScript.
 
-## 🌟 Features
+##  Features
 
 ### Core Functionality
-- ✅ **User Authentication** - Firebase Email/Password registration and login
-- ✅ **Task Management** - Add, edit, delete, and complete tasks
-- ✅ **Smart Sorting** - Advanced algorithm combining priority, deadline, and time
-- ✅ **Advanced Filtering** - Search, category, priority, and status filters
-- ✅ **Date/Time Management** - Due dates and deadlines with native pickers
-- ✅ **Priority System** - 4-level priority with color coding (Low/Medium/High/Urgent)
-- ✅ **Categories/Tags** - Organize tasks with custom categories
+-  **User Authentication** - Firebase Email/Password registration and login
+-  **Task Management** - Add, edit, delete, and complete tasks
+-  **Smart Sorting** - Advanced algorithm combining priority, deadline, and time
+-  **Advanced Filtering** - Search, category, priority, and status filters
+-  **Date/Time Management** - Due dates and deadlines with native pickers
+-  **Priority System** - 4-level priority with color coding (Low/Medium/High/Urgent)
+-  **Categories/Tags** - Organize tasks with custom categories
 
 ### Technical Features
-- 🎨 **Modern UI Design** - Professional, clean, and intuitive interface
-- 📱 **React Native CLI** - Built with React Native CLI and TypeScript
-- 🔥 **Firebase Integration** - Authentication and real-time updates
-- 💾 **Local Storage** - AsyncStorage for offline persistence
-- 🧭 **Navigation** - React Navigation with type-safe routing
-- 🎯 **State Management** - Context API with comprehensive state handling
-- 📝 **TypeScript** - Full TypeScript implementation with proper typing
+-  **Modern UI Design** - Professional, clean, and intuitive interface
+-  **React Native CLI** - Built with React Native CLI and TypeScript
+-  **Firebase Integration** - Authentication and real-time updates
+-  **Local Storage** - AsyncStorage for offline persistence
+-  **Navigation** - React Navigation with type-safe routing
+-  **State Management** - Context API with comprehensive state handling
+-  **TypeScript** - Full TypeScript implementation with proper typing
 
-## 🛠 Technical Stack
+##  Technical Stack
 
 - **Framework**: React Native CLI
 - **Language**: TypeScript
@@ -33,23 +33,23 @@ Professional Todo Application with Firebase Authentication built using React Nat
 - **UI Components**: React Native + Custom Components
 - **Date Handling**: React Native DateTimePicker
 
-## 📋 Assignment Requirements
+##  Assignment Requirements
 
 All technical requirements completed:
-- ✅ React Native CLI implementation
-- ✅ Firebase Authentication system
-- ✅ Context API state management
-- ✅ Professional UI components
-- ✅ Clean, organized project structure
-- ✅ Comprehensive code comments
-- ✅ Task due dates and deadlines
-- ✅ Smart sorting algorithm (priority + time + deadline)
-- ✅ Categories and tags implementation
-- ✅ Advanced sorting and filtering
-- ✅ Visually appealing, creative design
-- ✅ Enhanced user experience features
+-  React Native CLI implementation
+-  Firebase Authentication system
+-  Context API state management
+-  Professional UI components
+-  Clean, organized project structure
+-  Comprehensive code comments
+-  Task due dates and deadlines
+-  Smart sorting algorithm (priority + time + deadline)
+-  Categories and tags implementation
+-  Advanced sorting and filtering
+-  Visually appealing, creative design
+-  Enhanced user experience features
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -83,7 +83,7 @@ All technical requirements completed:
 3. Add Android app with package name: `com.todoapp`
 4. Download `google-services.json` to `android/app/`
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Authentication Flow
 - Modern login/registration screens
@@ -102,17 +102,17 @@ All technical requirements completed:
 - Due date and deadline management
 - Completion status tracking
 
-## 🏗 Project Structure
+##  Project Structure
 
 | Directory | Purpose | Key Files |
 |-----------|---------|-----------|
-| 📂 `src/contexts/` | State management | AuthContext.tsx, TodoContext.tsx |
-| 📱 `src/screens/` | App interfaces | Login, Register, TodoList, Add, Edit |
-| 🧭 `src/navigation/` | Routing system | AppNavigator, AuthStack, MainStack |
-| 🎯 `src/types/` | TypeScript definitions | Todo interface, Priority enum |
-| 🛠 `src/utils/` | Helper functions | Smart sorting, date formatting |
-| 📱 `android/` | Native Android | google-services.json, build.gradle |
-| 📸 `screenshots/` | Documentation | App preview images |
+|  `src/contexts/` | State management | AuthContext.tsx, TodoContext.tsx |
+|  `src/screens/` | App interfaces | Login, Register, TodoList, Add, Edit |
+|  `src/navigation/` | Routing system | AppNavigator, AuthStack, MainStack |
+|  `src/types/` | TypeScript definitions | Todo interface, Priority enum |
+|  `src/utils/` | Helper functions | Smart sorting, date formatting |
+|  `android/` | Native Android | google-services.json, build.gradle |
+|  `screenshots/` | Documentation | App preview images |
 
 ### Core Architecture:
 - **Firebase Authentication** - Secure login/register system
@@ -122,7 +122,7 @@ All technical requirements completed:
 - **Professional UI** - Modern, intuitive design
 
 
-## 🎯 Smart Sorting Algorithm
+##  Smart Sorting Algorithm
 
 The app implements an advanced sorting algorithm that combines:
 - **Priority Weight**: Higher priority tasks get preference
@@ -130,7 +130,7 @@ The app implements an advanced sorting algorithm that combines:
 - **Deadline Proximity**: Closer deadlines increase priority
 - **Completion Status**: Completed tasks automatically move to bottom
 
-## 👨‍💻 Developer
+##  Developer
 
 Built as part of a React Native development assignment demonstrating:
 - Advanced React Native concepts
@@ -139,7 +139,7 @@ Built as part of a React Native development assignment demonstrating:
 - Clean code architecture
 - TypeScript best practices
 
-## 📄 License
+##  License
 
 This project is for educational/assignment purposes.
 
