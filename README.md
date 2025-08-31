@@ -58,23 +58,24 @@ All technical requirements completed:
 - Java JDK 17
 
 ### Installation Steps
-Clone repository
-git clone https://github.com/YOUR-USERNAME/react-native-todo-app.git
-cd react-native-todo-app
 
-Install dependencies
-npm install
+####Clone repository
+ - git clone https://github.com/Prajwald-17/react-native-todo-app.git
+ - cd react-native-todo-app
 
-Android setup
-cd android
-./gradlew clean
-cd ..
+####Install dependencies
+ - npm install
 
-Start Metro
-npx react-native start
+####Android setup
+ - cd android
+ - ./gradlew clean
+ - cd ..
 
-Run on Android (new terminal)
-npx react-native run-android
+####Start Metro
+ - npx react-native start
+
+####Run on Android (new terminal)
+ - npx react-native run-android
 
 ### Firebase Setup
 1. Create Firebase project at https://console.firebase.google.com
